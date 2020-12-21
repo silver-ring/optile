@@ -8,10 +8,21 @@ Please check c4 diagram to take an overview about the architecture (https://stru
 
 System build is based on maven build, so you can use regular maven commands to build the system
 
-> cd task-runner-api
-> mvn clean install
-> cd task-runner-worker
-> mvn clean install
+```
+cd task-runner-api
+mvn clean install
+cd task-runner-worker
+mvn clean install
+```
+
+Also you can run unit test using regular maven
+
+```
+cd task-runner-api
+mvn test
+cd task-runner-worker
+mvn test
+```
 
 # Startup local environment
 
@@ -24,15 +35,19 @@ The system is based on the following:
 
 you can use docker file on "local" path to start kafka and my sql
 
-> cd local
-> docker-compose up
+```
+cd local
+docker-compose up
+```
 
 After starting up Kafka and MySql (optional) you can run regular spring boot commands to start up the system
 
-> cd task-runner-api
-> mvn spring-boot:run
-> cd task-runner-worker
-> mvn spring-boot:run
+```
+cd task-runner-api
+mvn spring-boot:run
+cd task-runner-worker
+mvn spring-boot:run
+```
 
 # Api Documentation
 

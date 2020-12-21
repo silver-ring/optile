@@ -20,7 +20,7 @@ The system is based on the following:
 2) Kafka: kafka is use for messaging, and it should start for the system to operate correctly
 3) spring boot: the system is build on spring boot
 
-## Note:
+### Note:
 
 you can use docker file on "local" path to start kafka and my sql
 

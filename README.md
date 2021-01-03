@@ -2,7 +2,7 @@
 
 System is dived in to two main modules "task runner api" and "task runner worker"
 
-Please check c4 diagram to take an overview about the architecture (https://structurizr.com/share/61530) 
+Please check c4 diagram to take an overview about the architecture (https://structurizr.com/share/62110/1aeea246-b839-4a86-b550-1528a1bff028/diagrams#Context%20Diagram) 
 
 #Build the system
 

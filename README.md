@@ -2,7 +2,19 @@
 
 System is dived in to two main modules "task runner api" and "task runner worker"
 
-Please check c4 diagram to take an overview about the architecture (https://structurizr.com/share/62110/1aeea246-b839-4a86-b550-1528a1bff028/diagrams#Context%20Diagram) 
+Please check c4 diagrams to take an overview about the architecture:
+
+- Credentials:
+    - email: cyathi@5staring.com 
+    - password: N@n6@tyxLjy$s-c
+
+- Diagrams:
+    - [System Context Diagram](https://structurizr.com/workspace/63121/diagrams#Context%20Diagram)
+    - [Container Diagram](https://structurizr.com/workspace/63121/diagrams#Container%20Diagram)
+    - [Component Diagram](https://structurizr.com/workspace/63121/diagrams#Task%20Runner%20Api%20Component%20Diagram)
+    - [Task Runner Component Diagram](https://structurizr.com/workspace/63121/diagrams#Task%20Runner%20Worker%20Component%20Diagram)
+    - [Task Runner Dynamic Diagram](https://structurizr.com/workspace/63121/diagrams#Main%20Flow%20Diagram)
+    - [Deployment Diagram](https://structurizr.com/workspace/63121/diagrams#Staging%20Deployment%20Diagram)
 
 # Build the system
 
